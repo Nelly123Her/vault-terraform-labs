@@ -313,7 +313,7 @@ again. Future Vault requests will automatically use this token.
 
 Key                    Value
 ---                    -----
-token                  hvs.CAESIBTRok6mOIepSvw8YIYN_QE9JgiZptwLgHjdgQkmivSeGh4KHGh2cy5MNVFtbTV1ejZPUzQxWDQyMnR1cXAzbGU
+token                  "TOKEN"
 token_accessor         ymmnrVi9DmZ8m6C3lugcRmm6
 token_duration         768h
 token_renewable        true
@@ -424,7 +424,7 @@ There are two types of tokens: service tokens and batch tokens.
 #### hvb. Batch token
 
 ```sh
-vault token  lookup hvs.dV9U4rUcW3U4S24hm3kzpmXm
+vault token  lookup "TOKEN"
 Key                 Value
 ---                 -----
 accessor            cSDqyjD2I73mp1d1uq0OP9Ha
@@ -434,7 +434,7 @@ display_name        root
 entity_id           n/a
 expire_time         <nil>
 explicit_max_ttl    0s
-id                  hvs.dV9U4rUcW3U4S24hm3kzpmXm
+id                  "TOKEN"
 meta                <nil>
 num_uses            0
 orphan              true
